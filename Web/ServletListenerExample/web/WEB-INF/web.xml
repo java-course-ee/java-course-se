@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <listener>
+        <description>ServletContextListener</description>
+        <listener-class>edu.gs.web.listener.ListenerServletContext</listener-class>
+    </listener>
+    <listener>
+        <description>ServletContextAttributeListener</description>
+        <listener-class>edu.gs.web.listener.ListenerContextAttribute</listener-class>
+    </listener>
+    <listener>
+        <description>HttpSessionListener</description>
+        <listener-class>edu.gs.web.listener.ListenerHttpSession</listener-class>
+    </listener>
+    <listener>
+        <description>HttpSessionAttributeListener</description>
+        <listener-class>edu.gs.web.listener.ListenerHttpSessionAttribute</listener-class>
+    </listener>
+    <listener>
+        <description>RequestListener</description>
+        <listener-class>edu.gs.web.listener.ListenerServletRequest</listener-class>
+    </listener>
+    <!--
+    <listener>
+        <description>RequestAttributeListener</description>
+        <listener-class>edu.gs.web.listener.ListenerServletRequestAttribute</listener-class>
+    </listener>
+    -->
+    
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>edu.gs.web.servlet.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/TestServlet</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

@@ -1,0 +1,183 @@
+DROP DATABASE IF EXISTS st_student;
+
+CREATE DATABASE st_student DEFAULT CHARACTER SET 'utf8';
+
+USE st_student;
+
+create table st_group
+(
+  group_id int unsigned not null auto_increment,
+  groupName varchar(255) not null,
+  curator varchar(255) not null,
+  speciality varchar(255) not null,
+  primary key (group_id)
+) engine=InnoDB;
+
+create table st_student
+(
+  student_id int unsigned not null auto_increment,
+  firstName varchar(255) not null,
+  surName varchar(255) not null,
+  patronymic varchar(255) not null,
+  dateOfBirth date not null,
+  sex char(1),
+  group_id int unsigned not null,
+  educationYear int not null,
+  primary key (student_id)
+) engine=InnoDB;
+
+create table st_teacher
+(
+  teacher_id int unsigned not null auto_increment,
+  firstName varchar(255) not null,
+  surName varchar(255) not null,
+  patronymic varchar(255) not null,
+  dateOfBirth date not null,
+  primary key (teacher_id)
+) engine=InnoDB;
+
+create table st_student_teacher
+(
+  student_id int unsigned not null,
+  teacher_id int unsigned not null
+) engine=InnoDB;
+
+
+create index groupId on st_student(group_id);
+
+alter table st_student add constraint refGroupId
+    foreign key (group_id)
+    references st_group(group_id);
+
+create table st_person
+(
+  person_id int unsigned not null auto_increment,
+  firstName varchar(255) not null,
+  surName varchar(255) not null,
+  patronymic varchar(255) not null,
+  primary key (person_id)
+) engine=InnoDB;
+
+create table st_company
+(
+  company_id int unsigned not null auto_increment,
+  companyName varchar(255) not null,
+  primary key (company_id)
+) engine=InnoDB;
+
+create table st_account
+(
+  account_id int unsigned not null auto_increment,
+  person_id int not null,
+  company_id int not null,
+  account_name varchar(100) not null,
+  primary key (account_id)
+) engine=InnoDB;
+
+
+create table st_account_firm
+(
+  account_id int unsigned not null auto_increment,
+  company_from int not null,
+  company_to int not null,
+  account_name varchar(100) not null,
+  primary key (account_id)
+) engine=InnoDB;
+
+
+create table st_image
+(
+  image_id int unsigned not null auto_increment,
+  image blob,
+  primary key (image_id)
+) engine=InnoDB;
+
+
+set names 'utf8';
+
+insert into st_group (groupName, curator, speciality) values ('Первая группа', 'Доктор Борменталь', 'Первая специальность');
+insert into st_group (groupName, curator, speciality) values ('Вторая группа', 'Профессор Преображенский', 'Вторая специальность');
+
+
+insert into st_student (firstName, patronymic, surName, sex, dateOfBirth, group_id, educationYear)
+values ('Иван', 'Сергеевич', 'Степанов', 'M', '1990-03-20', 1, 2006);
+insert into st_student (firstName, patronymic, surName, sex, dateOfBirth, group_id, educationYear)
+values ('Наталья', 'Андреевна', 'Чичикова', 'F', '1990-06-10', 1, 2006);
+insert into st_student (firstName, patronymic, surName, sex, dateOfBirth, group_id, educationYear)
+values ('Виктор', 'Сидорович', 'Белов', 'M', '1990-01-10', 1, 2006);
+insert into st_student (firstName, patronymic, surName, sex, dateOfBirth, group_id, educationYear)
+values ('Петр', 'Викторович', 'Шушкин', 'M', '1991-03-12', 2, 2006);
+insert into st_student (firstName, patronymic, surName, sex, dateOfBirth, group_id, educationYear)
+values ('Вероника', 'Сергеевна', 'Ковалева', 'F', '1991-07-19', 2, 2006);
+insert into st_student (firstName, patronymic, surName, sex, dateOfBirth, group_id, educationYear)
+values ('Ирина', 'Федоровна', 'Истомина', 'F', '1991-04-29', 2, 2006);
+
+
+insert into st_teacher (firstName, patronymic, surName, dateOfBirth) values ('Прохор', 'Пафнутьевич', 'Штейерман', '1962-07-01');
+insert into st_teacher (firstName, patronymic, surName, dateOfBirth) values ('Август', 'Федорович', 'Гагарин', '1955-11-23');
+insert into st_teacher (firstName, patronymic, surName, dateOfBirth) values ('Модест', 'Трофимович', 'Медведцкий-Гаупман', '1943-01-12');
+
+
+insert into st_student_teacher (student_id, teacher_id) values (1,1);
+insert into st_student_teacher (student_id, teacher_id) values (1,2);
+insert into st_student_teacher (student_id, teacher_id) values (1,3);
+insert into st_student_teacher (student_id, teacher_id) values (2,1);
+insert into st_student_teacher (student_id, teacher_id) values (3,2);
+insert into st_student_teacher (student_id, teacher_id) values (4,2);
+insert into st_student_teacher (student_id, teacher_id) values (5,2);
+insert into st_student_teacher (student_id, teacher_id) values (5,1);
+insert into st_student_teacher (student_id, teacher_id) values (6,2);
+insert into st_student_teacher (student_id, teacher_id) values (6,3);
+
+
+
+insert into st_person (surName, firstName, patronymic) values ("Иванов", "Петр", "Сергеевич");
+insert into st_person (surName, firstName, patronymic) values ("Клебанов", "Илья", "Семенович");
+insert into st_person (surName, firstName, patronymic) values ("Трухин", "Михаил", "Викторович");
+insert into st_person (surName, firstName, patronymic) values ("Семенов", "Илья", "Дмитриевич");
+
+
+insert into st_company (companyName) values ("Финансовая компания");
+insert into st_company (companyName) values ("Строительная фирма");
+insert into st_company (companyName) values ("Торговый холдинг");
+
+
+insert into st_account (person_id, company_id, account_name) values (1,2,"Договор 1");
+insert into st_account (person_id, company_id, account_name) values (1,2,"Договор 2");
+insert into st_account (person_id, company_id, account_name) values (1,1,"Договор 3");
+insert into st_account (person_id, company_id, account_name) values (2,3,"Договор 4");
+insert into st_account (person_id, company_id, account_name) values (2,1,"Договор 5");
+insert into st_account (person_id, company_id, account_name) values (3,2,"Договор 6");
+insert into st_account (person_id, company_id, account_name) values (4,1,"Договор 7");
+insert into st_account (person_id, company_id, account_name) values (4,2,"Договор 8");
+insert into st_account (person_id, company_id, account_name) values (4,3,"Договор 9");
+
+
+insert into st_account_firm (company_from, company_to, account_name) values (1,2,"Договор 1");
+insert into st_account_firm (company_from, company_to, account_name) values (1,2,"Договор 2");
+insert into st_account_firm (company_from, company_to, account_name) values (1,1,"Договор 3");
+insert into st_account_firm (company_from, company_to, account_name) values (2,3,"Договор 4");
+insert into st_account_firm (company_from, company_to, account_name) values (2,1,"Договор 5");
+insert into st_account_firm (company_from, company_to, account_name) values (3,2,"Договор 6");
+insert into st_account_firm (company_from, company_to, account_name) values (3,1,"Договор 7");
+insert into st_account_firm (company_from, company_to, account_name) values (3,2,"Договор 8");
+insert into st_account_firm (company_from, company_to, account_name) values (3,3,"Договор 9");
+
+
+delimiter //
+
+CREATE PROCEDURE get_students()
+BEGIN
+    SELECT student_id, firstName, surName 
+    FROM st_student;
+END;
+//
+
+CREATE PROCEDURE get_student(IN id int)
+BEGIN
+    SELECT student_id, firstName, surName 
+    FROM st_student WHERE student_id = id;
+END;
+//
+
+delimiter ;

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+<!-- 
+В файле tomcat-users.xml прописать строку
+При запуске из под NetBeans надо учесть, что файл находится в каталоге, на который 
+указывает строка в окне настройки свойств сервера - CatalinaBase
+Чаще всего это 
+%USERPROFILE%/.netbeans\7.0\apache-tomcat-7.0.11_base\conf
+
+<tomcat-users>
+   <user username="test" password="test" roles="java"/>
+</tomcat-users>
+-->
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>For SecurityServlet</web-resource-name>
+            <url-pattern>/SecurityServlet</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>java</role-name>
+        </auth-constraint>
+    </security-constraint> 
+    
+    <login-config>
+        <auth-method>BASIC</auth-method>
+        <realm-name>Tomcat Test</realm-name>
+    </login-config>
+    
+    <security-role>
+        <description>Simple description</description>
+        <role-name>java</role-name>
+    </security-role>    
+
+    <servlet>
+        <servlet-name>SecurityServlet</servlet-name>
+        <servlet-class>edu.gs.security.SecurityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SecurityServlet</servlet-name>
+        <url-pattern>/SecurityServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+</web-app>

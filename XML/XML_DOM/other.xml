@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><BookCatalogue xmlns="http://www.publishing.org">
+    <Book>
+        <Title>Yogasana Vijnana: the Science of Yoga</Title>
+        <Author>Dhirendra Brahmachari</Author>
+        <Date>1966</Date>
+        <ISBN>81-40-34319-4</ISBN>
+        <Publisher>Dhirendra Yoga Publications</Publisher>
+        <Cost currency="INR">11.50</Cost>
+    </Book>
+    <Book>
+        <Title>The First and Last Freedom</Title>
+        <Author>J. Krishnamurti</Author>
+        <Date>1954</Date>
+        <ISBN>0-06-064831-7</ISBN>
+        <Publisher>Harper &amp; Row</Publisher>
+        <Cost currency="USD">2.95</Cost>
+    </Book>
+<Book><Title>Incredible book about Java</Title><Author>Unknown author</Author><Date>2012</Date><ISBN>0-06-999999-9</ISBN><Publisher>Gemini publisher</Publisher><Cost currency="RUB">1500</Cost></Book><Book><Title>Incredible book about Java</Title><Author>Unknown author</Author><Date>2012</Date><ISBN>0-06-999999-9</ISBN><Publisher>Gemini publisher</Publisher><Cost currency="RUB">1500</Cost></Book></BookCatalogue>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="Author" type="xs:string"/>
+	<xs:element name="Book">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Title"/>
+				<xs:element ref="Author"/>
+				<xs:element ref="Date"/>
+				<xs:element ref="ISBN"/>
+				<xs:element ref="Publisher"/>
+				<xs:element ref="Cost"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="BookCatalogue">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Book" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Cost">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="CostSimpleType">
+					<xs:attribute name="currency" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:NMTOKEN">
+								<xs:enumeration value="INR"/>
+								<xs:enumeration value="USD"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="CostSimpleType">
+		<xs:restriction base="xs:decimal">
+			<xs:enumeration value="11.50"/>
+			<xs:enumeration value="2.95"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="Date">
+		<xs:simpleType>
+			<xs:restriction base="xs:short">
+				<xs:enumeration value="1954"/>
+				<xs:enumeration value="1966"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ISBN">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="0-06-064831-7"/>
+				<xs:enumeration value="81-40-34319-4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Publisher" type="xs:string"/>
+	<xs:element name="Title" type="xs:string"/>
+</xs:schema>
