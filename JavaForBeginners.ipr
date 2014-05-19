@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="exploded-war" name="DataSourceJNDI:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/DataSourceJNDI_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="DB_DataSourceJNDI/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="DB_DataSourceJNDI" />
+            <element id="module-output" name="Other_BasicSecurity" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="BasicSecurity:Web exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/BasicSecurity_Web_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Other_BasicSecurity/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Other_BasicSecurity" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="FilterExample:Web exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/FilterExample_Web_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_FilterExample/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_FilterExample" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="FilterLogin:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/FilterLogin_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_FilterLogin/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_FilterLogin" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="JSPProject1:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/JSPProject1_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_JSPProject1/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_JSPProject1" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="JSTLExample:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/JSTLExample_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_JSTLExample/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_JSTLExample" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="Servlet1:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/Servlet1_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_Servlet1/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_Servlet1" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="Servlet2:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/Servlet2_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_Servlet2/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_Servlet2" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="Servlet3:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/Servlet3_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_Servlet3/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_Servlet3" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="ServletListenerExample:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/ServletListenerExample_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_ServletListenerExample/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_ServletListenerExample" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="ServletForm:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/ServletForm_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_ServletForm/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_ServletForm" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="ServletParameter:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/ServletParameter_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_ServletParameter/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_ServletParameter" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="ServletSession:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/ServletSession_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_ServletSession/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_ServletSession" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="ShowHeader:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/ShowHeader_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_ShowHeader/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_ShowHeader" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="WebApplication:war exploded">
+      <output-path>$PROJECT_DIR$/out/artifacts/WebApplication_war_exploded</output-path>
+      <root id="root">
+        <element id="javaee-facet-resources" facet="Web_WebApplication/web/Web" />
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="Web_WebApplication" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays/ArrayExample/Arrays_ArrayExample.iml" filepath="$PROJECT_DIR$/Arrays/ArrayExample/Arrays_ArrayExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/ArrayMultiExample/Arrays_ArrayMultiExample.iml" filepath="$PROJECT_DIR$/Arrays/ArrayMultiExample/Arrays_ArrayMultiExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class/FirstClass/Class_FirstClass.iml" filepath="$PROJECT_DIR$/Class/FirstClass/Class_FirstClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class/InternalClass/Class_InternalClass.iml" filepath="$PROJECT_DIR$/Class/InternalClass/Class_InternalClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Class/TaxPayer/Class_TaxPayer.iml" filepath="$PROJECT_DIR$/Class/TaxPayer/Class_TaxPayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/ColectionListGeneric/Collections_ColectionListGeneric.iml" filepath="$PROJECT_DIR$/Collections/ColectionListGeneric/Collections_ColectionListGeneric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/Collection/Collections_Collection.iml" filepath="$PROJECT_DIR$/Collections/Collection/Collections_Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/CollectionCompare1/Collections_CollectionCompare1.iml" filepath="$PROJECT_DIR$/Collections/CollectionCompare1/Collections_CollectionCompare1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/CollectionCompare2/Collections_CollectionCompare2.iml" filepath="$PROJECT_DIR$/Collections/CollectionCompare2/Collections_CollectionCompare2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/CollectionList/Collections_CollectionList.iml" filepath="$PROJECT_DIR$/Collections/CollectionList/Collections_CollectionList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/CollectionMap/Collections_CollectionMap.iml" filepath="$PROJECT_DIR$/Collections/CollectionMap/Collections_CollectionMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/CollectionOperation/Collections_CollectionOperation.iml" filepath="$PROJECT_DIR$/Collections/CollectionOperation/Collections_CollectionOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/CollectionProperties/Collections_CollectionProperties.iml" filepath="$PROJECT_DIR$/Collections/CollectionProperties/Collections_CollectionProperties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/CollectionQueue/Collections_CollectionQueue.iml" filepath="$PROJECT_DIR$/Collections/CollectionQueue/Collections_CollectionQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collections/ComparatorExample/Collections_ComparatorExample.iml" filepath="$PROJECT_DIR$/Collections/ComparatorExample/Collections_ComparatorExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/CallableExample/DB_CallableExample.iml" filepath="$PROJECT_DIR$/DB/CallableExample/DB_CallableExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/DataBaseSQL/DB_DataBaseSQL.iml" filepath="$PROJECT_DIR$/DB/DataBaseSQL/DB_DataBaseSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/DataSourceJNDI/DB_DataSourceJNDI.iml" filepath="$PROJECT_DIR$/DB/DataSourceJNDI/DB_DataSourceJNDI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/Database1/DB_Database1.iml" filepath="$PROJECT_DIR$/DB/Database1/DB_Database1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/Database2/DB_Database2.iml" filepath="$PROJECT_DIR$/DB/Database2/DB_Database2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/Database3/DB_Database3.iml" filepath="$PROJECT_DIR$/DB/Database3/DB_Database3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/Database4/DB_Database4.iml" filepath="$PROJECT_DIR$/DB/Database4/DB_Database4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/DatabaseBlob/DB_DatabaseBlob.iml" filepath="$PROJECT_DIR$/DB/DatabaseBlob/DB_DatabaseBlob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/DatabaseCompany/DB_DatabaseCompany.iml" filepath="$PROJECT_DIR$/DB/DatabaseCompany/DB_DatabaseCompany.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DB/DatabaseSP/DB_DatabaseSP.iml" filepath="$PROJECT_DIR$/DB/DatabaseSP/DB_DatabaseSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/GenericClass/Generics_GenericClass.iml" filepath="$PROJECT_DIR$/Generics/GenericClass/Generics_GenericClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/GenericMethod/Generics_GenericMethod.iml" filepath="$PROJECT_DIR$/Generics/GenericMethod/Generics_GenericMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/GenericType/Generics_GenericType.iml" filepath="$PROJECT_DIR$/Generics/GenericType/Generics_GenericType.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generics/GenericWildcard/Generics_GenericWildcard.iml" filepath="$PROJECT_DIR$/Generics/GenericWildcard/Generics_GenericWildcard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleBuffer/IO_ExampleBuffer.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleBuffer/IO_ExampleBuffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleEncoding/IO_ExampleEncoding.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleEncoding/IO_ExampleEncoding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleFile/IO_ExampleFile.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleFile/IO_ExampleFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleFileOperation/IO_ExampleFileOperation.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleFileOperation/IO_ExampleFileOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleObject/IO_ExampleObject.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleObject/IO_ExampleObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleReadConsole/IO_ExampleReadConsole.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleReadConsole/IO_ExampleReadConsole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Net/Client/Net_Client.iml" filepath="$PROJECT_DIR$/Net/Client/Net_Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Net/NetworkCommunication/Net_NetworkCommunication.iml" filepath="$PROJECT_DIR$/Net/NetworkCommunication/Net_NetworkCommunication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Net/NetworkHTTP/Net_NetworkHTTP.iml" filepath="$PROJECT_DIR$/Net/NetworkHTTP/Net_NetworkHTTP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Net/NetworkWhois/Net_NetworkWhois.iml" filepath="$PROJECT_DIR$/Net/NetworkWhois/Net_NetworkWhois.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Net/Server/Net_Server.iml" filepath="$PROJECT_DIR$/Net/Server/Net_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/Aimer/Other_Aimer.iml" filepath="$PROJECT_DIR$/Other/Aimer/Other_Aimer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/BasicSecurity/Other_BasicSecurity.iml" filepath="$PROJECT_DIR$/Other/BasicSecurity/Other_BasicSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/CalendarDemo/Other_CalendarDemo.iml" filepath="$PROJECT_DIR$/Other/CalendarDemo/Other_CalendarDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/DelayedFlight/Other_DelayedFlight.iml" filepath="$PROJECT_DIR$/Other/DelayedFlight/Other_DelayedFlight.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/MathExample/Other_MathExample.iml" filepath="$PROJECT_DIR$/Other/MathExample/Other_MathExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/SimpleQueue/Other_SimpleQueue.iml" filepath="$PROJECT_DIR$/Other/SimpleQueue/Other_SimpleQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/StringClass/Other_StringClass.iml" filepath="$PROJECT_DIR$/Other/StringClass/Other_StringClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/StudentFamily1/Other_StudentFamily1.iml" filepath="$PROJECT_DIR$/Other/StudentFamily1/Other_StudentFamily1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/StudentFamily2/Other_StudentFamily2.iml" filepath="$PROJECT_DIR$/Other/StudentFamily2/Other_StudentFamily2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/Annotation/Reflection-Annotations_Annotation.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/Annotation/Reflection-Annotations_Annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/Reflection/Reflection-Annotations_Reflection.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/Reflection/Reflection-Annotations_Reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/ReflectionExample/Reflection-Annotations_ReflectionExample.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/ReflectionExample/Reflection-Annotations_ReflectionExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/ReflectionImplementation/Reflection-Annotations_ReflectionImplementation.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/ReflectionImplementation/Reflection-Annotations_ReflectionImplementation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/ReflectionInterface/Reflection-Annotations_ReflectionInterface.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/ReflectionInterface/Reflection-Annotations_ReflectionInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Robot/Robot1/Robot1.iml" filepath="$PROJECT_DIR$/Robot/Robot1/Robot1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Robot/Robot2/Robot2.iml" filepath="$PROJECT_DIR$/Robot/Robot2/Robot2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Robot/Robot3/Robot3.iml" filepath="$PROJECT_DIR$/Robot/Robot3/Robot3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Robot/Robot4/Robot4.iml" filepath="$PROJECT_DIR$/Robot/Robot4/Robot4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Robot/Robot5/Robot5.iml" filepath="$PROJECT_DIR$/Robot/Robot5/Robot5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Robot/Robot6/Robot6.iml" filepath="$PROJECT_DIR$/Robot/Robot6/Robot6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SWING/FormList/SWING_FormList.iml" filepath="$PROJECT_DIR$/SWING/FormList/SWING_FormList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SWING/FrameExample1/SWING_FrameExample1.iml" filepath="$PROJECT_DIR$/SWING/FrameExample1/SWING_FrameExample1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SWING/FrameExample2/SWING_FrameExample2.iml" filepath="$PROJECT_DIR$/SWING/FrameExample2/SWING_FrameExample2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SWING/FrameExample3/SWING_FrameExample3.iml" filepath="$PROJECT_DIR$/SWING/FrameExample3/SWING_FrameExample3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SWING/SwingExample1/SWING_SwingExample1.iml" filepath="$PROJECT_DIR$/SWING/SwingExample1/SWING_SwingExample1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SWING/SwingExample2/SWING_SwingExample2.iml" filepath="$PROJECT_DIR$/SWING/SwingExample2/SWING_SwingExample2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SWING/SwingExample3/SWING_SwingExample3.iml" filepath="$PROJECT_DIR$/SWING/SwingExample3/SWING_SwingExample3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/Saxon/Saxon.iml" filepath="$PROJECT_DIR$/XML/Saxon/Saxon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shape/Shape1/Shape1.iml" filepath="$PROJECT_DIR$/Shape/Shape1/Shape1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shape/Shape2/Shape2.iml" filepath="$PROJECT_DIR$/Shape/Shape2/Shape2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread2/ThreadsClockThread2.iml" filepath="$PROJECT_DIR$/Threads/ClockThread2/ThreadsClockThread2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ClockRunnable/Threads_ClockRunnable.iml" filepath="$PROJECT_DIR$/Threads/ClockRunnable/Threads_ClockRunnable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread/Threads_ClockThread.iml" filepath="$PROJECT_DIR$/Threads/ClockThread/Threads_ClockThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/Concurrency_Atomic/Threads_Concurrency_Atomic.iml" filepath="$PROJECT_DIR$/Threads/Concurrency_Atomic/Threads_Concurrency_Atomic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/Concurrency_Lock/Threads_Concurrency_Lock.iml" filepath="$PROJECT_DIR$/Threads/Concurrency_Lock/Threads_Concurrency_Lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer1/Threads_ProducerConsumer1.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer1/Threads_ProducerConsumer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer2/Threads_ProducerConsumer2.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer2/Threads_ProducerConsumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer3/Threads_ProducerConsumer3.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer3/Threads_ProducerConsumer3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/SimpleThread/Threads_SimpleThread.iml" filepath="$PROJECT_DIR$/Threads/SimpleThread/Threads_SimpleThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/SynchonizeExample/Threads_SynchonizeExample.iml" filepath="$PROJECT_DIR$/Threads/SynchonizeExample/Threads_SynchonizeExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_Join/Threads_ThreadExample_Join.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_Join/Threads_ThreadExample_Join.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/Threads_ThreadExample_SynchMethod.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/Threads_ThreadExample_SynchMethod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/FilterExample/Web_FilterExample.iml" filepath="$PROJECT_DIR$/Web/FilterExample/Web_FilterExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/FilterLogin/Web_FilterLogin.iml" filepath="$PROJECT_DIR$/Web/FilterLogin/Web_FilterLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/JSPProject1/Web_JSPProject1.iml" filepath="$PROJECT_DIR$/Web/JSPProject1/Web_JSPProject1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/JSTLExample/Web_JSTLExample.iml" filepath="$PROJECT_DIR$/Web/JSTLExample/Web_JSTLExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/Servlet1/Web_Servlet1.iml" filepath="$PROJECT_DIR$/Web/Servlet1/Web_Servlet1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/Servlet2/Web_Servlet2.iml" filepath="$PROJECT_DIR$/Web/Servlet2/Web_Servlet2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/Servlet3/Web_Servlet3.iml" filepath="$PROJECT_DIR$/Web/Servlet3/Web_Servlet3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/ServletForm/Web_ServletForm.iml" filepath="$PROJECT_DIR$/Web/ServletForm/Web_ServletForm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/ServletListenerExample/Web_ServletListenerExample.iml" filepath="$PROJECT_DIR$/Web/ServletListenerExample/Web_ServletListenerExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/ServletParameter/Web_ServletParameter.iml" filepath="$PROJECT_DIR$/Web/ServletParameter/Web_ServletParameter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/ServletSession/Web_ServletSession.iml" filepath="$PROJECT_DIR$/Web/ServletSession/Web_ServletSession.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/ShowHeader/Web_ShowHeader.iml" filepath="$PROJECT_DIR$/Web/ShowHeader/Web_ShowHeader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web/WebApplication/Web_WebApplication.iml" filepath="$PROJECT_DIR$/Web/WebApplication/Web_WebApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML_DOM/XML_DOM.iml" filepath="$PROJECT_DIR$/XML/XML_DOM/XML_DOM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML_DOM_XPath/XML_DOM_XPath.iml" filepath="$PROJECT_DIR$/XML/XML_DOM_XPath/XML_DOM_XPath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML_JAXB/XML_JAXB.iml" filepath="$PROJECT_DIR$/XML/XML_JAXB/XML_JAXB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML_SAX/XML_SAX.iml" filepath="$PROJECT_DIR$/XML/XML_SAX/XML_SAX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML_StAX/XML_StAX.iml" filepath="$PROJECT_DIR$/XML/XML_StAX/XML_StAX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML_StAX_Write/XML_StAX_Write.iml" filepath="$PROJECT_DIR$/XML/XML_StAX_Write/XML_StAX_Write.iml" />
+    </modules>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+  </component>
+</project>
+
