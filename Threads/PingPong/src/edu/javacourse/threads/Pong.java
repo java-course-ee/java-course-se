@@ -19,9 +19,9 @@ public class Pong implements Runnable {
     public void run() {
         synchronized (judge) {
             while (true) {
-                if (judge.getTurn() == 1) {
-                    System.out.println("Pong");
-                    judge.setTurn(0);
+                if (Turn.PONG.equals(judge.getTurn())) {
+                    System.out.println(Turn.PONG);
+                    judge.setTurn(Turn.PING);
                     try {
                         Thread.sleep(RANDOM.nextInt(1000));
                     } catch (InterruptedException e) {

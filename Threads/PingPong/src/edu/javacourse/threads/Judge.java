@@ -5,13 +5,13 @@ package edu.javacourse.threads;
  */
 public class Judge {
 
-    private int turn = 0; // 0 = ping, 1 = pong
+    private Turn turn = Turn.PING;
 
-    public int getTurn() {
+    public Turn getTurn() {
         return turn;
     }
 
-    public void setTurn(int turn) {
+    public void setTurn(Turn turn) {
         this.turn = turn;
     }
 }

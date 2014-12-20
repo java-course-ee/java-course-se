@@ -19,9 +19,9 @@ public class Ping implements Runnable {
     public void run() {
         synchronized (judge) {
             while (true) {
-                if (judge.getTurn() == 0) {
-                    System.out.println("Ping");
-                    judge.setTurn(1);
+                if (Turn.PING.equals(judge.getTurn())) {
+                    System.out.println(Turn.PING);
+                    judge.setTurn(Turn.PONG);
                     try {
                         Thread.sleep(RANDOM.nextInt(1000));
                     } catch (InterruptedException e) {
