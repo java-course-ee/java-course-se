@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/DB/DatabaseBlob/DB_DatabaseBlob.iml" filepath="$PROJECT_DIR$/DB/DatabaseBlob/DB_DatabaseBlob.iml" group="DB" />
       <module fileurl="file://$PROJECT_DIR$/DB/DatabaseCompany/DB_DatabaseCompany.iml" filepath="$PROJECT_DIR$/DB/DatabaseCompany/DB_DatabaseCompany.iml" group="DB" />
       <module fileurl="file://$PROJECT_DIR$/DB/DatabaseSP/DB_DatabaseSP.iml" filepath="$PROJECT_DIR$/DB/DatabaseSP/DB_DatabaseSP.iml" group="DB" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/DeadLock/DeadLock.iml" filepath="$PROJECT_DIR$/Threads/DeadLock/DeadLock.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" filepath="$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" group="Exceptions" />
       <module fileurl="file://$PROJECT_DIR$/Generics/GenericClass/Generics_GenericClass.iml" filepath="$PROJECT_DIR$/Generics/GenericClass/Generics_GenericClass.iml" group="Generics" />
       <module fileurl="file://$PROJECT_DIR$/Generics/GenericMethod/Generics_GenericMethod.iml" filepath="$PROJECT_DIR$/Generics/GenericMethod/Generics_GenericMethod.iml" group="Generics" />
