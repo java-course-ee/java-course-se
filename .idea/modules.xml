@@ -7,6 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/Class/FirstClass/Class_FirstClass.iml" filepath="$PROJECT_DIR$/Class/FirstClass/Class_FirstClass.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Class/InternalClass/Class_InternalClass.iml" filepath="$PROJECT_DIR$/Class/InternalClass/Class_InternalClass.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Class/TaxPayer/Class_TaxPayer.iml" filepath="$PROJECT_DIR$/Class/TaxPayer/Class_TaxPayer.iml" group="Class" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ClockRunnable/ClockRunnable.iml" filepath="$PROJECT_DIR$/Threads/ClockRunnable/ClockRunnable.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread/ClockThread.iml" filepath="$PROJECT_DIR$/Threads/ClockThread/ClockThread.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread2/ClockThread2.iml" filepath="$PROJECT_DIR$/Threads/ClockThread2/ClockThread2.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Collections/ColectionListGeneric/Collections_ColectionListGeneric.iml" filepath="$PROJECT_DIR$/Collections/ColectionListGeneric/Collections_ColectionListGeneric.iml" group="Collections" />
       <module fileurl="file://$PROJECT_DIR$/Collections/Collection/Collections_Collection.iml" filepath="$PROJECT_DIR$/Collections/Collection/Collections_Collection.iml" group="Collections" />
       <module fileurl="file://$PROJECT_DIR$/Collections/CollectionCompare1/Collections_CollectionCompare1.iml" filepath="$PROJECT_DIR$/Collections/CollectionCompare1/Collections_CollectionCompare1.iml" group="Collections" />
@@ -17,6 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/Collections/CollectionProperties/Collections_CollectionProperties.iml" filepath="$PROJECT_DIR$/Collections/CollectionProperties/Collections_CollectionProperties.iml" group="Collections" />
       <module fileurl="file://$PROJECT_DIR$/Collections/CollectionQueue/Collections_CollectionQueue.iml" filepath="$PROJECT_DIR$/Collections/CollectionQueue/Collections_CollectionQueue.iml" group="Collections" />
       <module fileurl="file://$PROJECT_DIR$/Collections/ComparatorExample/Collections_ComparatorExample.iml" filepath="$PROJECT_DIR$/Collections/ComparatorExample/Collections_ComparatorExample.iml" group="Collections" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/Concurrency_Atomic/Concurrency_Atomic.iml" filepath="$PROJECT_DIR$/Threads/Concurrency_Atomic/Concurrency_Atomic.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/Concurrency_Lock/Concurrency_Lock.iml" filepath="$PROJECT_DIR$/Threads/Concurrency_Lock/Concurrency_Lock.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/DB/CallableExample/DB_CallableExample.iml" filepath="$PROJECT_DIR$/DB/CallableExample/DB_CallableExample.iml" group="DB" />
       <module fileurl="file://$PROJECT_DIR$/DB/DataBaseSQL/DB_DataBaseSQL.iml" filepath="$PROJECT_DIR$/DB/DataBaseSQL/DB_DataBaseSQL.iml" group="DB" />
       <module fileurl="file://$PROJECT_DIR$/DB/DataSourceJNDI/DB_DataSourceJNDI.iml" filepath="$PROJECT_DIR$/DB/DataSourceJNDI/DB_DataSourceJNDI.iml" group="DB" />
@@ -55,6 +60,9 @@
       <module fileurl="file://$PROJECT_DIR$/Other/StudentFamily1/Other_StudentFamily1.iml" filepath="$PROJECT_DIR$/Other/StudentFamily1/Other_StudentFamily1.iml" group="Other" />
       <module fileurl="file://$PROJECT_DIR$/Other/StudentFamily2/Other_StudentFamily2.iml" filepath="$PROJECT_DIR$/Other/StudentFamily2/Other_StudentFamily2.iml" group="Other" />
       <module fileurl="file://$PROJECT_DIR$/Threads/PingPong/PingPong.iml" filepath="$PROJECT_DIR$/Threads/PingPong/PingPong.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer1/ProducerConsumer1.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer1/ProducerConsumer1.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer2/ProducerConsumer2.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer2/ProducerConsumer2.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer3/ProducerConsumer3.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer3/ProducerConsumer3.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/Annotation/Reflection-Annotations_Annotation.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/Annotation/Reflection-Annotations_Annotation.iml" group="Reflection-Annotations" />
       <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/Reflection/Reflection-Annotations_Reflection.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/Reflection/Reflection-Annotations_Reflection.iml" group="Reflection-Annotations" />
       <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/ReflectionExample/Reflection-Annotations_ReflectionExample.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/ReflectionExample/Reflection-Annotations_ReflectionExample.iml" group="Reflection-Annotations" />
@@ -76,19 +84,11 @@
       <module fileurl="file://$PROJECT_DIR$/XML/Saxon/Saxon.iml" filepath="$PROJECT_DIR$/XML/Saxon/Saxon.iml" group="XML" />
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape1/Shape1.iml" filepath="$PROJECT_DIR$/Shape/Shape1/Shape1.iml" group="Shape" />
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape2/Shape2.iml" filepath="$PROJECT_DIR$/Shape/Shape2/Shape2.iml" group="Shape" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/SimpleThread/SimpleThread.iml" filepath="$PROJECT_DIR$/Threads/SimpleThread/SimpleThread.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/SynchonizeExample/SynchonizeExample.iml" filepath="$PROJECT_DIR$/Threads/SynchonizeExample/SynchonizeExample.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_Join/ThreadExample_Join.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_Join/ThreadExample_Join.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/ThreadExample_SynchMethod.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/ThreadExample_SynchMethod.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" filepath="$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread2/ThreadsClockThread2.iml" filepath="$PROJECT_DIR$/Threads/ClockThread2/ThreadsClockThread2.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/ClockRunnable/Threads_ClockRunnable.iml" filepath="$PROJECT_DIR$/Threads/ClockRunnable/Threads_ClockRunnable.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread/Threads_ClockThread.iml" filepath="$PROJECT_DIR$/Threads/ClockThread/Threads_ClockThread.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/Concurrency_Atomic/Threads_Concurrency_Atomic.iml" filepath="$PROJECT_DIR$/Threads/Concurrency_Atomic/Threads_Concurrency_Atomic.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/Concurrency_Lock/Threads_Concurrency_Lock.iml" filepath="$PROJECT_DIR$/Threads/Concurrency_Lock/Threads_Concurrency_Lock.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer1/Threads_ProducerConsumer1.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer1/Threads_ProducerConsumer1.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer2/Threads_ProducerConsumer2.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer2/Threads_ProducerConsumer2.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer3/Threads_ProducerConsumer3.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer3/Threads_ProducerConsumer3.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/SimpleThread/Threads_SimpleThread.iml" filepath="$PROJECT_DIR$/Threads/SimpleThread/Threads_SimpleThread.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/SynchonizeExample/Threads_SynchonizeExample.iml" filepath="$PROJECT_DIR$/Threads/SynchonizeExample/Threads_SynchonizeExample.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_Join/Threads_ThreadExample_Join.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_Join/Threads_ThreadExample_Join.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/Threads_ThreadExample_SynchMethod.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/Threads_ThreadExample_SynchMethod.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/VolatileExample/VolatileExample.iml" filepath="$PROJECT_DIR$/Threads/VolatileExample/VolatileExample.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/VolatileExample2/VolatileExample2.iml" filepath="$PROJECT_DIR$/Threads/VolatileExample2/VolatileExample2.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Web/FilterExample/Web_FilterExample.iml" filepath="$PROJECT_DIR$/Web/FilterExample/Web_FilterExample.iml" group="Web" />
