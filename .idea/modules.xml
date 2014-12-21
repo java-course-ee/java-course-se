@@ -74,6 +74,7 @@
       <module fileurl="file://$PROJECT_DIR$/XML/Saxon/Saxon.iml" filepath="$PROJECT_DIR$/XML/Saxon/Saxon.iml" group="XML" />
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape1/Shape1.iml" filepath="$PROJECT_DIR$/Shape/Shape1/Shape1.iml" group="Shape" />
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape2/Shape2.iml" filepath="$PROJECT_DIR$/Shape/Shape2/Shape2.iml" group="Shape" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" filepath="$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread2/ThreadsClockThread2.iml" filepath="$PROJECT_DIR$/Threads/ClockThread2/ThreadsClockThread2.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ClockRunnable/Threads_ClockRunnable.iml" filepath="$PROJECT_DIR$/Threads/ClockRunnable/Threads_ClockRunnable.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread/Threads_ClockThread.iml" filepath="$PROJECT_DIR$/Threads/ClockThread/Threads_ClockThread.iml" group="Threads" />
