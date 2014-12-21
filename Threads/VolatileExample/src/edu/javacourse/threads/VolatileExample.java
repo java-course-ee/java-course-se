@@ -11,7 +11,7 @@ public class VolatileExample {
 
         thread.start();
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
         worker.die();
     }
