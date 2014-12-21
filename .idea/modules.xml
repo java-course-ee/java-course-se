@@ -88,6 +88,7 @@
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_Join/Threads_ThreadExample_Join.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_Join/Threads_ThreadExample_Join.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/Threads_ThreadExample_SynchMethod.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/Threads_ThreadExample_SynchMethod.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/VolatileExample/VolatileExample.iml" filepath="$PROJECT_DIR$/Threads/VolatileExample/VolatileExample.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/VolatileExample2/VolatileExample2.iml" filepath="$PROJECT_DIR$/Threads/VolatileExample2/VolatileExample2.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Web/FilterExample/Web_FilterExample.iml" filepath="$PROJECT_DIR$/Web/FilterExample/Web_FilterExample.iml" group="Web" />
       <module fileurl="file://$PROJECT_DIR$/Web/FilterLogin/Web_FilterLogin.iml" filepath="$PROJECT_DIR$/Web/FilterLogin/Web_FilterLogin.iml" group="Web" />
       <module fileurl="file://$PROJECT_DIR$/Web/JSPProject1/Web_JSPProject1.iml" filepath="$PROJECT_DIR$/Web/JSPProject1/Web_JSPProject1.iml" group="Web" />

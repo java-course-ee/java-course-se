@@ -6,14 +6,18 @@ package edu.javacourse.threads;
 public class VolatileExample {
 
     public static void main(String[] args) throws InterruptedException {
-        Worker worker = new Worker();
-        Thread thread = new Thread(worker);
 
-        thread.start();
+        SharedObject sharedObject = new SharedObject();
+
+        Thread writer = new Thread(new WriteWorker(sharedObject));
+        Thread reader = new Thread(new ReadWorker(sharedObject));
+
+        reader.start();
 
         Thread.sleep(2000);
 
-        worker.die();
+        writer.start();
+
     }
 
 }

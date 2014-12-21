@@ -5,25 +5,22 @@ package edu.javacourse.threads;
  */
 public class Worker implements Runnable {
 
-    private static final String died = "died";
-//    private volatile boolean isAlive = true;
-    private boolean isAlive = true;
+    private volatile boolean isAlive = true;
+//    private boolean isAlive = true;
 
     @Override
     public void run() {
-        while (isAlive) {
-            System.out.println(isAlive);
-            try {
-                Thread.sleep(1);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+        boolean isAliveLocal = isAlive;
+        while (isAliveLocal) {
+            if (isAliveLocal != isAlive) {
+                System.out.println("changed");
+                isAliveLocal = isAlive;
             }
         }
     }
 
     public void die() {
+        System.out.println("die signal");
         isAlive = false;
-        System.out.println(died);
-        System.out.println(isAlive);
     }
 }
