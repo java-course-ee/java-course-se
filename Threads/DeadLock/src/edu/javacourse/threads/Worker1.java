@@ -28,7 +28,7 @@ public class Worker1 implements Runnable {
             System.out.println("\tTrying to lock lock2 from Worker1...");
             synchronized (lock2) {
                 System.out.println("\tlock2 from Worker1 has been locked");
-                System.out.println("\t\tPerforming some logic in Worker1");
+                System.out.println("\t\tPerforming some logic in Worker1 with lock1, lock2");
             }
             System.out.println("\tlock2 has been released from Worker1");
         }
