@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/Collections/ComparatorExample/Collections_ComparatorExample.iml" filepath="$PROJECT_DIR$/Collections/ComparatorExample/Collections_ComparatorExample.iml" group="Collections" />
       <module fileurl="file://$PROJECT_DIR$/Threads/Concurrency_Atomic/Concurrency_Atomic.iml" filepath="$PROJECT_DIR$/Threads/Concurrency_Atomic/Concurrency_Atomic.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/Concurrency_Lock/Concurrency_Lock.iml" filepath="$PROJECT_DIR$/Threads/Concurrency_Lock/Concurrency_Lock.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/CountDownLatch/CountDownLatch.iml" filepath="$PROJECT_DIR$/Threads/CountDownLatch/CountDownLatch.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/DB/CallableExample/DB_CallableExample.iml" filepath="$PROJECT_DIR$/DB/CallableExample/DB_CallableExample.iml" group="DB" />
       <module fileurl="file://$PROJECT_DIR$/DB/DataBaseSQL/DB_DataBaseSQL.iml" filepath="$PROJECT_DIR$/DB/DataBaseSQL/DB_DataBaseSQL.iml" group="DB" />
       <module fileurl="file://$PROJECT_DIR$/DB/DataSourceJNDI/DB_DataSourceJNDI.iml" filepath="$PROJECT_DIR$/DB/DataSourceJNDI/DB_DataSourceJNDI.iml" group="DB" />
