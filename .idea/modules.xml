@@ -60,10 +60,10 @@
       <module fileurl="file://$PROJECT_DIR$/Other/StudentFamily1/Other_StudentFamily1.iml" filepath="$PROJECT_DIR$/Other/StudentFamily1/Other_StudentFamily1.iml" group="Other" />
       <module fileurl="file://$PROJECT_DIR$/Other/StudentFamily2/Other_StudentFamily2.iml" filepath="$PROJECT_DIR$/Other/StudentFamily2/Other_StudentFamily2.iml" group="Other" />
       <module fileurl="file://$PROJECT_DIR$/Threads/PingPong/PingPong.iml" filepath="$PROJECT_DIR$/Threads/PingPong/PingPong.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Threads/ReadWriteLock/ReadWriteLock.iml" filepath="$PROJECT_DIR$/Threads/ReadWriteLock/ReadWriteLock.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer1/ProducerConsumer1.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer1/ProducerConsumer1.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer2/ProducerConsumer2.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer2/ProducerConsumer2.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ProducerConsumer3/ProducerConsumer3.iml" filepath="$PROJECT_DIR$/Threads/ProducerConsumer3/ProducerConsumer3.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/ReadWriteLock/ReadWriteLock.iml" filepath="$PROJECT_DIR$/Threads/ReadWriteLock/ReadWriteLock.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/Annotation/Reflection-Annotations_Annotation.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/Annotation/Reflection-Annotations_Annotation.iml" group="Reflection-Annotations" />
       <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/Reflection/Reflection-Annotations_Reflection.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/Reflection/Reflection-Annotations_Reflection.iml" group="Reflection-Annotations" />
       <module fileurl="file://$PROJECT_DIR$/Reflection-Annotations/ReflectionExample/Reflection-Annotations_ReflectionExample.iml" filepath="$PROJECT_DIR$/Reflection-Annotations/ReflectionExample/Reflection-Annotations_ReflectionExample.iml" group="Reflection-Annotations" />
