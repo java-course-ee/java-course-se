@@ -10,11 +10,11 @@ public class ExecutorServiceExample {
 
     public static void main(String[] args) {
 
-        Thread worker1 = new Thread(new Worker("worker1"));
-        Thread worker2 = new Thread(new Worker("worker2"));
-        Thread worker3 = new Thread(new Worker("worker3"));
-        Thread worker4 = new Thread(new Worker("worker4"));
-        Thread worker5 = new Thread(new Worker("worker5"));
+        Worker worker1 = new Worker("worker1");
+        Worker worker2 = new Worker("worker2");
+        Worker worker3 = new Worker("worker3");
+        Worker worker4 = new Worker("worker4");
+        Worker worker5 = new Worker("worker5");
 
 //        ExecutorService executorService = Executors.newSingleThreadExecutor();
         ExecutorService executorService = Executors.newFixedThreadPool(2);
