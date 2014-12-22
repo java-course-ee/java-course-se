@@ -87,6 +87,7 @@
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape2/Shape2.iml" filepath="$PROJECT_DIR$/Shape/Shape2/Shape2.iml" group="Shape" />
       <module fileurl="file://$PROJECT_DIR$/Threads/SimpleThread/SimpleThread.iml" filepath="$PROJECT_DIR$/Threads/SimpleThread/SimpleThread.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/SynchonizeExample/SynchonizeExample.iml" filepath="$PROJECT_DIR$/Threads/SynchonizeExample/SynchonizeExample.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/SynchronousQueue/SynchronousQueue.iml" filepath="$PROJECT_DIR$/Threads/SynchronousQueue/SynchronousQueue.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_Join/ThreadExample_Join.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_Join/ThreadExample_Join.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/ThreadExample_SynchMethod.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/ThreadExample_SynchMethod.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" filepath="$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" group="Threads" />
