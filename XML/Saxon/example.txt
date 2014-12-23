@@ -1,3 +1,0 @@
-http://zvon.org/xxl/XSLTutorial/Books/Output/contents.html
-
-java -jar saxon.jar <xml> <xsl>

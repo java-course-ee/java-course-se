@@ -87,7 +87,6 @@
       <module fileurl="file://$PROJECT_DIR$/SWING/SwingExample1/SWING_SwingExample1.iml" filepath="$PROJECT_DIR$/SWING/SwingExample1/SWING_SwingExample1.iml" group="SWING" />
       <module fileurl="file://$PROJECT_DIR$/SWING/SwingExample2/SWING_SwingExample2.iml" filepath="$PROJECT_DIR$/SWING/SwingExample2/SWING_SwingExample2.iml" group="SWING" />
       <module fileurl="file://$PROJECT_DIR$/SWING/SwingExample3/SWING_SwingExample3.iml" filepath="$PROJECT_DIR$/SWING/SwingExample3/SWING_SwingExample3.iml" group="SWING" />
-      <module fileurl="file://$PROJECT_DIR$/XML/Saxon/Saxon.iml" filepath="$PROJECT_DIR$/XML/Saxon/Saxon.iml" group="XML" />
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape1/Shape1.iml" filepath="$PROJECT_DIR$/Shape/Shape1/Shape1.iml" group="Shape" />
       <module fileurl="file://$PROJECT_DIR$/Shape/Shape2/Shape2.iml" filepath="$PROJECT_DIR$/Shape/Shape2/Shape2.iml" group="Shape" />
       <module fileurl="file://$PROJECT_DIR$/Threads/SimpleThread/SimpleThread.iml" filepath="$PROJECT_DIR$/Threads/SimpleThread/SimpleThread.iml" group="Threads" />
