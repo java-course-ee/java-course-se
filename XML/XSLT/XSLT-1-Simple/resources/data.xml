@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books xmlns="http://javacourse.ru/xslt/books">
+    <book>
+        <title>Java book</title>
+        <author>John Smith</author>
+        <publishDate>2004</publishDate>
+    </book>
+    <book>
+        <title>SQL book</title>
+        <author>Jane Smith</author>
+        <publishDate>2008</publishDate>
+    </book>
+    <book>
+        <title>JavaEE book</title>
+        <author>John Smith Jr</author>
+        <publishDate>2010</publishDate>
+    </book>
+</books>
