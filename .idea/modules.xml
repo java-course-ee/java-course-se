@@ -4,9 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/ArrayExample/Arrays_ArrayExample.iml" filepath="$PROJECT_DIR$/Arrays/ArrayExample/Arrays_ArrayExample.iml" group="Arrays" />
       <module fileurl="file://$PROJECT_DIR$/Arrays/ArrayMultiExample/Arrays_ArrayMultiExample.iml" filepath="$PROJECT_DIR$/Arrays/ArrayMultiExample/Arrays_ArrayMultiExample.iml" group="Arrays" />
-      <module fileurl="file://$PROJECT_DIR$/Class/FirstClass/Class_FirstClass.iml" filepath="$PROJECT_DIR$/Class/FirstClass/Class_FirstClass.iml" group="Class" />
-      <module fileurl="file://$PROJECT_DIR$/Class/InternalClass/Class_InternalClass.iml" filepath="$PROJECT_DIR$/Class/InternalClass/Class_InternalClass.iml" group="Class" />
-      <module fileurl="file://$PROJECT_DIR$/Class/TaxPayer/Class_TaxPayer.iml" filepath="$PROJECT_DIR$/Class/TaxPayer/Class_TaxPayer.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ClockRunnable/ClockRunnable.iml" filepath="$PROJECT_DIR$/Threads/ClockRunnable/ClockRunnable.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread/ClockThread.iml" filepath="$PROJECT_DIR$/Threads/ClockThread/ClockThread.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread2/ClockThread2.iml" filepath="$PROJECT_DIR$/Threads/ClockThread2/ClockThread2.iml" group="Threads" />
@@ -39,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" filepath="$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" group="Exceptions" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ExecutorService/ExecutorService.iml" filepath="$PROJECT_DIR$/Threads/ExecutorService/ExecutorService.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ExecutorServiceScheduled/ExecutorServiceScheduled.iml" filepath="$PROJECT_DIR$/Threads/ExecutorServiceScheduled/ExecutorServiceScheduled.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Class/FirstClass/FirstClass.iml" filepath="$PROJECT_DIR$/Class/FirstClass/FirstClass.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Generics/GenericClass/Generics_GenericClass.iml" filepath="$PROJECT_DIR$/Generics/GenericClass/Generics_GenericClass.iml" group="Generics" />
       <module fileurl="file://$PROJECT_DIR$/Generics/GenericMethod/Generics_GenericMethod.iml" filepath="$PROJECT_DIR$/Generics/GenericMethod/Generics_GenericMethod.iml" group="Generics" />
       <module fileurl="file://$PROJECT_DIR$/Generics/GenericType/Generics_GenericType.iml" filepath="$PROJECT_DIR$/Generics/GenericType/Generics_GenericType.iml" group="Generics" />
@@ -49,6 +47,7 @@
       <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleFileOperation/IO_ExampleFileOperation.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleFileOperation/IO_ExampleFileOperation.iml" group="IO" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleObject/IO_ExampleObject.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleObject/IO_ExampleObject.iml" group="IO" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleReadConsole/IO_ExampleReadConsole.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleReadConsole/IO_ExampleReadConsole.iml" group="IO" />
+      <module fileurl="file://$PROJECT_DIR$/Class/InternalClass/InternalClass.iml" filepath="$PROJECT_DIR$/Class/InternalClass/InternalClass.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Net/Client/Net_Client.iml" filepath="$PROJECT_DIR$/Net/Client/Net_Client.iml" group="Net" />
       <module fileurl="file://$PROJECT_DIR$/Net/NetworkCommunication/Net_NetworkCommunication.iml" filepath="$PROJECT_DIR$/Net/NetworkCommunication/Net_NetworkCommunication.iml" group="Net" />
       <module fileurl="file://$PROJECT_DIR$/Net/NetworkHTTP/Net_NetworkHTTP.iml" filepath="$PROJECT_DIR$/Net/NetworkHTTP/Net_NetworkHTTP.iml" group="Net" />
@@ -93,6 +92,7 @@
       <module fileurl="file://$PROJECT_DIR$/Threads/SimpleThread/SimpleThread.iml" filepath="$PROJECT_DIR$/Threads/SimpleThread/SimpleThread.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/SynchonizeExample/SynchonizeExample.iml" filepath="$PROJECT_DIR$/Threads/SynchonizeExample/SynchonizeExample.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/SynchronousQueue/SynchronousQueue.iml" filepath="$PROJECT_DIR$/Threads/SynchronousQueue/SynchronousQueue.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Class/TaxPayer/TaxPayer.iml" filepath="$PROJECT_DIR$/Class/TaxPayer/TaxPayer.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_Join/ThreadExample_Join.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_Join/ThreadExample_Join.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/ThreadExample_SynchMethod.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/ThreadExample_SynchMethod.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" filepath="$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" group="Threads" />
