@@ -33,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/DB/DatabaseSP/DB_DatabaseSP.iml" filepath="$PROJECT_DIR$/DB/DatabaseSP/DB_DatabaseSP.iml" group="DB" />
       <module fileurl="file://$PROJECT_DIR$/Threads/DeadLock/DeadLock.iml" filepath="$PROJECT_DIR$/Threads/DeadLock/DeadLock.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/DeadLockSolution/DeadLockSolution.iml" filepath="$PROJECT_DIR$/Threads/DeadLockSolution/DeadLockSolution.iml" group="Threads" />
+      <module fileurl="file://$PROJECT_DIR$/Class/DefaultInterfaceMethod/DefaultInterfaceMethod.iml" filepath="$PROJECT_DIR$/Class/DefaultInterfaceMethod/DefaultInterfaceMethod.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" filepath="$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" group="Exceptions" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ExecutorService/ExecutorService.iml" filepath="$PROJECT_DIR$/Threads/ExecutorService/ExecutorService.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ExecutorServiceScheduled/ExecutorServiceScheduled.iml" filepath="$PROJECT_DIR$/Threads/ExecutorServiceScheduled/ExecutorServiceScheduled.iml" group="Threads" />
