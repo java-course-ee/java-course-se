@@ -49,6 +49,7 @@
       <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleObject/IO_ExampleObject.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleObject/IO_ExampleObject.iml" group="IO" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleReadConsole/IO_ExampleReadConsole.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleReadConsole/IO_ExampleReadConsole.iml" group="IO" />
       <module fileurl="file://$PROJECT_DIR$/Class/InternalClass/InternalClass.iml" filepath="$PROJECT_DIR$/Class/InternalClass/InternalClass.iml" group="Class" />
+      <module fileurl="file://$PROJECT_DIR$/Class/Lambda/Lambda.iml" filepath="$PROJECT_DIR$/Class/Lambda/Lambda.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Net/Client/Net_Client.iml" filepath="$PROJECT_DIR$/Net/Client/Net_Client.iml" group="Net" />
       <module fileurl="file://$PROJECT_DIR$/Net/NetworkCommunication/Net_NetworkCommunication.iml" filepath="$PROJECT_DIR$/Net/NetworkCommunication/Net_NetworkCommunication.iml" group="Net" />
       <module fileurl="file://$PROJECT_DIR$/Net/NetworkHTTP/Net_NetworkHTTP.iml" filepath="$PROJECT_DIR$/Net/NetworkHTTP/Net_NetworkHTTP.iml" group="Net" />
