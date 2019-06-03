@@ -16,14 +16,15 @@ public class Worker implements Runnable {
     @Override
     public void run() {
         Random random = new Random();
-
+        System.out.println("Therad " + name + " begin");
         for (int i = 0; i < 5; i++) {
-            System.out.println("Therad " + name + " is working: " + i);
+            System.out.println("\tTherad " + name + " is working: " + i);
             try {
                 Thread.sleep(random.nextInt(2000));
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
+        System.out.println("Therad " + name + " end");
     }
 }

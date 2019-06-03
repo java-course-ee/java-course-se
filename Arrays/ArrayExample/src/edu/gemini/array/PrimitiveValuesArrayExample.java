@@ -4,16 +4,16 @@ package edu.gemini.array;
  * Пример для ознакомления с массивом
  * 
  */
-public class ArrayExample {
+public class PrimitiveValuesArrayExample {
 
     public static void main(String[] args) {
 
         // Пример записи одномерного массива
         int[] array1 = new int[5];
-        System.out.println(array1.getClass().getSimpleName());
+        System.out.println("Array class: " + array1.getClass().getCanonicalName());
 
         // Убеждаемся, что наследование произошло от класса Object
-        System.out.println("Parent:" + array1.getClass().getSuperclass().getSimpleName());
+        System.out.println("Array parent class: " + array1.getClass().getSuperclass().getSimpleName());
         System.out.println();
         // Присваивание элементам массива данных
         for (int i = 0; i < array1.length; i++) {
