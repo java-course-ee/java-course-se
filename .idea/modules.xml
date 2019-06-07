@@ -31,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/DB/DatabaseBlob/DB_DatabaseBlob.iml" filepath="$PROJECT_DIR$/DB/DatabaseBlob/DB_DatabaseBlob.iml" group="DB" />
       <module fileurl="file://$PROJECT_DIR$/DB/DatabaseCompany/DB_DatabaseCompany.iml" filepath="$PROJECT_DIR$/DB/DatabaseCompany/DB_DatabaseCompany.iml" group="DB" />
       <module fileurl="file://$PROJECT_DIR$/DB/DatabaseSP/DB_DatabaseSP.iml" filepath="$PROJECT_DIR$/DB/DatabaseSP/DB_DatabaseSP.iml" group="DB" />
+      <module fileurl="file://$PROJECT_DIR$/Other/Date/Date.iml" filepath="$PROJECT_DIR$/Other/Date/Date.iml" group="Other" />
       <module fileurl="file://$PROJECT_DIR$/Threads/DeadLock/DeadLock.iml" filepath="$PROJECT_DIR$/Threads/DeadLock/DeadLock.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/DeadLockSolution/DeadLockSolution.iml" filepath="$PROJECT_DIR$/Threads/DeadLockSolution/DeadLockSolution.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" filepath="$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" group="Exceptions" />
