@@ -1,4 +1,4 @@
-package edu.javacourse.threads;
+package edu.javacourse.a.threads;
 
 import java.util.Random;
 

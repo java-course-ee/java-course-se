@@ -36,7 +36,6 @@
       <module fileurl="file://$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" filepath="$PROJECT_DIR$/Exceptions/DocumentFinder/DocumentFinder.iml" group="Exceptions" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ExecutorService/ExecutorService.iml" filepath="$PROJECT_DIR$/Threads/ExecutorService/ExecutorService.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ExecutorServiceScheduled/ExecutorServiceScheduled.iml" filepath="$PROJECT_DIR$/Threads/ExecutorServiceScheduled/ExecutorServiceScheduled.iml" group="Threads" />
-      <module fileurl="file://$PROJECT_DIR$/Class/FirstClass/FirstClass.iml" filepath="$PROJECT_DIR$/Class/FirstClass/FirstClass.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Generics/GenericClass/Generics_GenericClass.iml" filepath="$PROJECT_DIR$/Generics/GenericClass/Generics_GenericClass.iml" group="Generics" />
       <module fileurl="file://$PROJECT_DIR$/Generics/GenericMethod/Generics_GenericMethod.iml" filepath="$PROJECT_DIR$/Generics/GenericMethod/Generics_GenericMethod.iml" group="Generics" />
       <module fileurl="file://$PROJECT_DIR$/Generics/GenericType/Generics_GenericType.iml" filepath="$PROJECT_DIR$/Generics/GenericType/Generics_GenericType.iml" group="Generics" />
@@ -118,6 +117,13 @@
       <module fileurl="file://$PROJECT_DIR$/XML/XML_StAX/XML_StAX.iml" filepath="$PROJECT_DIR$/XML/XML_StAX/XML_StAX.iml" group="XML" />
       <module fileurl="file://$PROJECT_DIR$/XML/XML_StAX_Write/XML_StAX_Write.iml" filepath="$PROJECT_DIR$/XML/XML_StAX_Write/XML_StAX_Write.iml" group="XML" />
       <module fileurl="file://$PROJECT_DIR$/XML/XSLT/XSLT-1-Simple/XSLT-1-Simple.iml" filepath="$PROJECT_DIR$/XML/XSLT/XSLT-1-Simple/XSLT-1-Simple.iml" group="XML/XSLT" />
+      <module fileurl="file://$PROJECT_DIR$/First/first-class/first-class.iml" filepath="$PROJECT_DIR$/First/first-class/first-class.iml" group="First" />
+      <module fileurl="file://$PROJECT_DIR$/First/hello-world/hello-world.iml" filepath="$PROJECT_DIR$/First/hello-world/hello-world.iml" group="First" />
+      <module fileurl="file://$PROJECT_DIR$/First/import/import.iml" filepath="$PROJECT_DIR$/First/import/import.iml" group="First" />
+      <module fileurl="file://$PROJECT_DIR$/First/packages/packages.iml" filepath="$PROJECT_DIR$/First/packages/packages.iml" group="First" />
+      <module fileurl="file://$PROJECT_DIR$/First/simple-methods/simple-methods.iml" filepath="$PROJECT_DIR$/First/simple-methods/simple-methods.iml" group="First" />
+      <module fileurl="file://$PROJECT_DIR$/First/simple-types/simple-types.iml" filepath="$PROJECT_DIR$/First/simple-types/simple-types.iml" group="First" />
+      <module fileurl="file://$PROJECT_DIR$/First/string/string.iml" filepath="$PROJECT_DIR$/First/string/string.iml" group="First" />
     </modules>
   </component>
 </project>
