@@ -8,6 +8,7 @@ public class Male {
     String name;
     int age;
     int money;
+    int savings;
 
     void goToWorkAndEarnSomeMoney() {
         System.out.println(name + " goes to work and earns 100$");
@@ -19,8 +20,8 @@ public class Male {
         money = money - 20;
     }
 
-    int getMoney() {
-        return money;
+    int getAllMoney() {
+        return money + savings;
     }
 
 }
