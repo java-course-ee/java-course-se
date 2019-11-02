@@ -7,11 +7,11 @@ public class Main {
         int addResult = math.add(10, 3);
         int subResult = math.sub(44, 2);
 
-        System.out.println("10 + 3 = " + addResult);
-        System.out.println("44 - 2 = " + subResult);
-
-
         Logger log = new Logger();
+
+        log.out("10 + 3 = " + addResult);
+        log.out("44 - 2 = " + subResult);
+
         log.out("Hello");
         log.out("World");
 
