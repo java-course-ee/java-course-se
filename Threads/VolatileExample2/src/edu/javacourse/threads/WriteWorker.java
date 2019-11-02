@@ -1,4 +1,4 @@
-package edu.javacourse.a.threads;
+package edu.javacourse.threads;
 
 /**
  * @author Artem Pronchakov | email/xmpp: artem.pronchakov@calisto.email

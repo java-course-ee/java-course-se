@@ -1,4 +1,4 @@
-package edu.javacourse.a.threads;
+package edu.javacourse.threads;
 
 import java.util.concurrent.CountDownLatch;
 
