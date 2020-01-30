@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arrays/ArrayExample/Arrays_ArrayExample.iml" filepath="$PROJECT_DIR$/Arrays/ArrayExample/Arrays_ArrayExample.iml" group="Arrays" />
       <module fileurl="file://$PROJECT_DIR$/Arrays/ArrayMultiExample/Arrays_ArrayMultiExample.iml" filepath="$PROJECT_DIR$/Arrays/ArrayMultiExample/Arrays_ArrayMultiExample.iml" group="Arrays" />
+      <module fileurl="file://$PROJECT_DIR$/Class/ClassesChain/ClassesChain.iml" filepath="$PROJECT_DIR$/Class/ClassesChain/ClassesChain.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ClockRunnable/ClockRunnable.iml" filepath="$PROJECT_DIR$/Threads/ClockRunnable/ClockRunnable.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread/ClockThread.iml" filepath="$PROJECT_DIR$/Threads/ClockThread/ClockThread.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ClockThread2/ClockThread2.iml" filepath="$PROJECT_DIR$/Threads/ClockThread2/ClockThread2.iml" group="Threads" />
@@ -92,6 +93,7 @@
       <module fileurl="file://$PROJECT_DIR$/Threads/SynchonizeExample/SynchonizeExample.iml" filepath="$PROJECT_DIR$/Threads/SynchonizeExample/SynchonizeExample.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/SynchronousQueue/SynchronousQueue.iml" filepath="$PROJECT_DIR$/Threads/SynchronousQueue/SynchronousQueue.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Class/TaxPayer/TaxPayer.iml" filepath="$PROJECT_DIR$/Class/TaxPayer/TaxPayer.iml" group="Class" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Test/Test.iml" filepath="$PROJECT_DIR$/Streams/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_Join/ThreadExample_Join.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_Join/ThreadExample_Join.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/ThreadExample_SynchMethod.iml" filepath="$PROJECT_DIR$/Threads/ThreadExample_SynchMethod/ThreadExample_SynchMethod.iml" group="Threads" />
       <module fileurl="file://$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" filepath="$PROJECT_DIR$/Threads/ThreadLocalVariable/ThreadLocalVariable.iml" group="Threads" />
