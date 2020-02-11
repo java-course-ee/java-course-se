@@ -4,8 +4,6 @@ import edu.javacourse.classchain.dao.DBAccess;
 import edu.javacourse.classchain.entity.Employee;
 import edu.javacourse.classchain.outservice.SendMailService;
 
-import java.util.List;
-
 public class InternalBusinessLogic {
 
     private DBAccess db;
@@ -21,7 +19,7 @@ public class InternalBusinessLogic {
 
     public void sendNotificationToAllEmployees(String text) {
         System.out.println("\t\tSending notification to all employees");
-        List<Employee> allEmployees = db.getAllEmployees();
+        Employee[] allEmployees = db.getAllEmployees();
         for (Employee employee : allEmployees) {
             System.out.println("\t\tto: " + employee.getEmail());
             mailService.sendMail("info@example.com", employee.getEmail(), text);
@@ -30,7 +28,7 @@ public class InternalBusinessLogic {
 
     public void addSalaryToAllEmployees(int amountToAdd) {
         System.out.println("\t\tAdd salary  to everyone: " + amountToAdd);
-        List<Employee> allEmployees = db.getAllEmployees();
+        Employee[] allEmployees = db.getAllEmployees();
         for (Employee employee : allEmployees) {
             employee.setSalary(employee.getSalary() + amountToAdd);
             db.saveEmployee(employee);
