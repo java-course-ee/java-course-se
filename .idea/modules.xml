@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Class/AbstractClasses/AbstractClasses.iml" filepath="$PROJECT_DIR$/Class/AbstractClasses/AbstractClasses.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Arrays/ArrayExample/Arrays_ArrayExample.iml" filepath="$PROJECT_DIR$/Arrays/ArrayExample/Arrays_ArrayExample.iml" group="Arrays" />
       <module fileurl="file://$PROJECT_DIR$/Arrays/ArrayMultiExample/Arrays_ArrayMultiExample.iml" filepath="$PROJECT_DIR$/Arrays/ArrayMultiExample/Arrays_ArrayMultiExample.iml" group="Arrays" />
       <module fileurl="file://$PROJECT_DIR$/Class/ClassesChain/ClassesChain.iml" filepath="$PROJECT_DIR$/Class/ClassesChain/ClassesChain.iml" group="Class" />
@@ -47,6 +48,7 @@
       <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleFileOperation/IO_ExampleFileOperation.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleFileOperation/IO_ExampleFileOperation.iml" group="IO" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleObject/IO_ExampleObject.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleObject/IO_ExampleObject.iml" group="IO" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO_ExampleReadConsole/IO_ExampleReadConsole.iml" filepath="$PROJECT_DIR$/IO/IO_ExampleReadConsole/IO_ExampleReadConsole.iml" group="IO" />
+      <module fileurl="file://$PROJECT_DIR$/Class/Interface/Interface.iml" filepath="$PROJECT_DIR$/Class/Interface/Interface.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Class/InternalClass/InternalClass.iml" filepath="$PROJECT_DIR$/Class/InternalClass/InternalClass.iml" group="Class" />
       <module fileurl="file://$PROJECT_DIR$/Net/Client/Net_Client.iml" filepath="$PROJECT_DIR$/Net/Client/Net_Client.iml" group="Net" />
       <module fileurl="file://$PROJECT_DIR$/Net/NetworkCommunication/Net_NetworkCommunication.iml" filepath="$PROJECT_DIR$/Net/NetworkCommunication/Net_NetworkCommunication.iml" group="Net" />
